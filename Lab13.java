@@ -22,7 +22,7 @@ public class Lab13 {
                     + "WHERE studentID=?";
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
             preparedStatement.setString(1, "mmm@gmail.com");
-            preparedStatement.setString(2, "111111");
+            preparedStatement.setString(2, "4444");
             preparedStatement.executeUpdate();
         } catch (ClassNotFoundException ex) {
             Logger.getLogger(Lab12.class.getName()).log(Level.SEVERE, null, ex);

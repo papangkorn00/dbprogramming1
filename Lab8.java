@@ -27,8 +27,6 @@ public class Lab8 {
                         + results.getString(3) + " " + results.getString(4) + " " + results.getString(5));
             }
             
-            
-            
         } catch (ClassNotFoundException ex) {
             Logger.getLogger(Lab8.class.getName()).log(Level.SEVERE, null, ex);
         } catch (SQLException ex) {

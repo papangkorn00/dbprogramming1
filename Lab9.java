@@ -15,10 +15,10 @@ public class Lab9 {
         String password = "butter0025_P";
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection connection= DriverManager.getConnection(URL, username, password);
-            Statement statement= connection.createStatement();
+            Connection connection = DriverManager.getConnection(URL, username, password);
+            Statement statement = connection.createStatement();
             String sql = "INSERT INTO student(studentID,firstName,lastName,email,deptID) "
-                    + "VALUES('11222','aaaaa','bbbbb','aaaa@kmutt.ac.th','IT')";
+                    + "VALUES('34566','aaaaa','bbbbb','aaaa@kmutt.ac.th','IT')";
             statement.executeUpdate(sql);
         } catch (ClassNotFoundException ex) {
             Logger.getLogger(Lab9.class.getName()).log(Level.SEVERE, null, ex);
